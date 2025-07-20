@@ -1,0 +1,34 @@
+ <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .skill-bar { transition: width 1s ease-in-out; }
+        .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        /* Add this new class for your background image */
+        .hero-background-image {
+        background-image: url('../images/bg-cover-pexels-steve-johnson-1930310.jpg'); /* REPLACE THIS PATH */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* In your CSS file (e.g., style.css) */
+    .nav-link-active {
+    color: blue; /* Or whatever styling you want for the active tab */
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+    }
+
+    /* About Me - My Journey */
+    .about-section-image {
+    background-image: url('../images/myjourney-pexels-olia-danilevich-4974920\(1\).jpg'); /* Adjust path relative to CSS file */
+    background-size: cover;
+    background-position: center;
+    }
+
+
+</style>
